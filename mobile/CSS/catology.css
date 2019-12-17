@@ -1,0 +1,163 @@
+
+#wrapper {width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			background-color: #D4B163;}
+html {padding: 0;
+	margin: 0;}
+header {margin-bottom: 0;
+		background-image: url(../images/leopard.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		padding: 5px;}
+header img{float: left;
+			padding-left: 100px;
+			padding-top: 50px;}
+h1{font-family: verdana, sans-serif; 
+	font-size: 90px;
+	line-height: 115%;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-weight: bold;
+	text-align: center;
+	color: #009900;
+	text-shadow: 0px -3px 4px #333, 0px 4px 5px #000;
+	border: none;}
+.cursive {font-size: 45px;
+			text-transform: none;
+			font-family: "lucida handwriting", cursive;
+			font-weight: normal;
+			line-height: 115%;
+			text-align: center;
+			color: #009900;
+			text-shadow: 0px -3px 4px #333, 0px 4px 5px #000;
+			letter-spacing: normal;
+			padding-bottom: 5px;}
+h2{font-family: verdana, sans-serif; 
+	font-size: 18px;
+	background-color: #006600;
+	padding: 5px;
+	border-bottom: 1px solid #000000;
+	}
+h3 {font-family: verdana, sans-serif;
+	border-bottom: 1px groove #747474;
+	padding: 5px;}
+body {font-family: verdana, sans-serif; 
+	font-size: 13px;
+	padding: 0;
+	margin: 0;
+	}
+main {width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+nav {font-family: verdana, sans-serif;
+	font-weight: 900;
+	background-color: #000000;
+	text-align: center;
+	font-size: 17px; 
+	color: #006600;
+	margin: 0;
+	padding: 5px;
+	}
+nav ul {list-style-type: none;}
+nav li {display: inline; 
+		margin: 0;}
+nav ul a:hover {background-color: #006600;
+			color: #000000;}
+nav ul a {text-decoration: none;
+	color:#006600;padding-right: 40px;}
+form {padding: 10px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #cea44b;}
+label {float: left;
+	width: 100px;
+	clear: left;
+	text-align: right;
+	padding-right: 10px;
+	margin-top: 10px;}
+input, textarea {float: right; 
+			margin-top: 10px;
+			display: block;}
+button {border-radius: 4px;
+  background-image: url(../images/leopard.jpg);
+  border: 1px solid #000;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 10px;}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;}
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;}
+.button:hover span {
+  padding-right: 25px;}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;}
+.right {float: right;
+		border: 1px solid #000000;
+		margin-left: 15px;
+		margin-bottom: 15px;}
+.rightnoborder {float: right;
+				border: none;
+				margin-left: 15px;
+				margin-bottom: 15px;}
+#columns {display: flex;}
+.left {float: left;
+		border: 1px solid #000000;
+		margin-right: 15px;
+		margin-bottom: 15px;}
+.clearleft {clear: left; padding-top: 5%;}
+.clearleft2 {clear: left; padding-top: 5%}
+.clearright {clear: right;}
+.breakafter{padding-bottom: 7%;}
+main ul {list-style-type: none;}
+main a {text-decoration: none;}
+main li a:link {color: #000;}
+main li {padding:0.5em;}
+main ul a:hover {color: #003300;
+				font-weight: bold;}
+main ul a:visited {color: #003300;}
+footer {text-indent: 50px;
+		clear: left;
+		clear: right;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-top: thin solid #000000;}
+@media only screen and (max-width: 480px) {
+	.wrapper {width: auto;}
+	header {padding: 5%;}
+	header img {display: none;}
+	h1, .cursive, h2 {font-size: 130%; text-shadow: none;}
+	nav {font-size: 100%; padding: 2%;}
+	.cursive {padding-bottom: 2%;}
+	nav li a{display: block;}
+	h2, h3 {padding: 2%;}
+	nav ul a {padding-right: 10%;}
+	#columns {display: block;}
+	body {font-size: 120%;}
+	main {width: auto; padding: 2%;}
+	form {padding: 3%; width: auto;}
+	label {width: auto; padding-right: 8%; margin-top: 3%;}
+	input, textarea {margin-top: 8%;}
+	.right{float: none; margin-left: 10%; margin-bottom: 10%;}
+	.rightnoborder {float: none; margin-left: 10%; margin-bottom: 10%;}
+	.left{float: none; margin-right: 10%; margin-bottom: 10%;}
+	footer {text-indent: 20%; padding-top: 3%; padding-bottom: 3%;}
+	img {max-width: 80%; height: auto; display: block; margin: auto;}}
